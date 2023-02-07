@@ -4,6 +4,7 @@ import pandas as pd
 import re
 from datetime import datetime as dt
 import numpy as np
+from time import sleep
 
 SOURCE_PATH = 'M:/CPP-Data/CBO BATCHES/'
 DEST_PATH = 'M:/CPP-Data/ARCHIVE - CBO Batches/'
@@ -14,6 +15,13 @@ CORR_EXT = ['doc', 'docx', 'pdf', 'png', 'msg',
 DELETE_EXT = ['html', 'css', 'js', 'db', 'lnk', 'download','js.download']
 FILE_AGE = 365
 FILE_SIZE = 500  # MB
+
+
+def get_connection_status():
+    if os.path.exists('M:/'):
+        return True
+    else:
+        return False
 
 
 def get_info(path):

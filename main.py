@@ -4,7 +4,6 @@ import pandas as pd
 import re
 from datetime import datetime as dt
 import numpy as np
-from time import sleep
 
 SOURCE_PATH = 'M:/CPP-Data/CBO BATCHES/'
 DEST_PATH = 'M:/CPP-Data/ARCHIVE - CBO Batches/'

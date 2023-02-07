@@ -9,4 +9,4 @@ This process was designed as an automation to address an issue the business grou
 
 The archive folder is organized by year and month of the creation date so if they ever need to be searched, the user can navigate directly to the month and year the file should have been saved to search.
 
-This was executed in a Jupyter notebook so each individual section could be run separately based on need. Variables are configurable to change source and destination locations, file size requirements, file age requirements, and valid/invalid extension types.
+Variables are configurable to change source and destination locations, file size requirements, file age requirements, and valid/invalid extension types.
